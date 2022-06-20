@@ -1,0 +1,92 @@
+{
+  "projects": [
+    {
+      "name": "Post-Secondary School Map",
+      "link": "mapify",
+      "date": "May 2022",
+      "short": "I created a maping application that maps different potential universities to attend in the near future. By using folium and pandas I was successfully able to create a mapping application",
+      "status": "Complete",
+      "weight": 7,
+      "tags": [
+        "Folium",
+        "Python"
+      
+      ],
+      "photos": [
+        "/static/projects/mapify/mapify.jpg"
+      ],
+      "gitub": [
+        "https://github.com/mialachica/Maping-application"
+      ]
+    },
+    {
+      "name": "User Interacting Filter",
+      "link": "user_interact",
+      "date": "June 2022",
+      "short": "Created with OpenCV2 and numpy, this is a user friendly filter that allows for the user to interact through the terminal different texts they want on their head!",
+      "status": "Complete",
+      "weight": 9,
+      "tags": [
+        "CV2",
+        "Python"
+      ],
+      "photos": [
+        "/static/projects/user_interact/custom_filter.jpg"
+      ],
+      "gitub": [
+        "https://github.com/mialachica/Customize-filter"
+      ]
+    },
+    {
+      "name": "Randomized Meme Filter",
+      "link": "meme_filter",
+      "date": "June 2022",
+      "short": "A filter that randomizes different captions to the users head for them to make different faces and share with their friends!",
+      "status": "Complete",
+      "weight": 8,
+      "tags": [
+        "CV2",
+        "Python"
+      ],
+      "photos": [
+        "/static/projects/meme_filter/MyMemeFace.jpg"
+      ],
+      "gitub": [
+        "https://github.com/mialachica/Meme-filter"
+      ]
+    },
+    {
+      "name": "Portfolio",
+      "link": "portfolio",
+      "date": "June 2022",
+      "short": "A portfolio created to showcase different projects made in my coding career!",
+      "status": "Complete",
+      "weight": 8,
+      "tags": [
+        "Python"
+      ],
+      "photos": [
+        "/static/projects/portfolio/portfolio.jpg"
+      ]
+      },
+      {
+        "name": "Choose your own Adventure Game",
+        "link": "adventure_game",
+        "date": "April 2022",
+        "short": "A choose your own adventure game that can be played in a terminal!",
+        "status": "Complete",
+        "weight": 8,
+        "tags": [
+          "Python"
+        ],
+        "photos": [
+          "/static/projects/adventure_game/adventure_game.jpg"
+        ],
+        "gitub": [
+          "https://github.com/mialachica/adventure_game"
+        ]
+        
+      }
+
+  ]
+}

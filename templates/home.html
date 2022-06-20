@@ -1,0 +1,75 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">mia.lachica</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>mia</span><span class="at">@</span><span
+                                class="path">/home/mia/</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response"/></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Mia</p>
+            <p class="text-title desktop-view">Lachica</p>
+            <p class="text-title mobile-view">Mia Lachica</p>
+            <div class="social-icons">
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="https://via.placeholder.com/150">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+                <a target="_blank" href="">
+                    <img class="title-logo" src="https://via.placeholder.com/150">
+                </a>
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">Hi, I'm Mia Lachica in the beginnings of my coding career!</p>
+
+            <p class="text-content"> I am currently in highschool just in the beginnings of my coding career and loving every bit of it! I've always had an intrest into the world of computers and found that coding ignites that sense of love with in me.</p>
+
+            <p class="text-content">Although I don't have very many projects to show on this website, I hope you find somthing that I've spent my time on pretty cool!
+            </p>
+
+            <p class="text-content">Mia Lachica</p>
+
+            <p class="text-content"><a href="timeline">For more about me, my timeline, read on here.</a></p>
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}
