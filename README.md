@@ -1,8 +1,6 @@
-# www.rish.space
-
 ----
 
-This is was created using [my Rish's personal corner on the web](http://rish.space)
+This is was created using [ Rish's personal corner on the web](http://rish.space)
 
 # Technology
 
